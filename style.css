@@ -1,0 +1,69 @@
+* {
+    padding: 500;
+    margin: 500;
+    box-sizing: border-box;
+    background-color: #465793;
+    color: #51DB7C;
+    font-size: 30px;
+}
+
+
+.header {  
+    height: 130px;
+    text-align: center;
+
+
+}
+
+.img_container{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+
+
+}
+
+
+.img1{
+    background-image: url(squirrel.webp) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;
+    height: 300px;
+    margin-bottom: 60px;
+}
+.img1_title{
+    padding-left: 45px;
+    font-size: 20px;
+    position: relative;
+}
+.img1 {   
+    position: relative;
+    max-height: 300px;
+    margin-top: 30px;
+    margin-left: 29px;
+    padding-right: 29px;
+}
+
+.img2_title{
+    position: relative;
+    text-align: center;
+    padding-left: 45px;
+    font-size: 20px;
+}
+
+.img2{
+    display: flex;
+    background-image: url(sadge.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;
+    height: 300px;
+    margin: 60px;
+}
+
+.neighbours{
+    padding-left: 30px;
+}
